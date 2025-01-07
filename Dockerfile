@@ -1,6 +1,6 @@
 # Resmi bir Spark görüntüsünü temel al
 FROM bitnami/spark:latest
-
+#
 # Jupyter'ı yüklemek için gerekli bağımlılıkları yükle
 USER root
 RUN apt-get update && apt-get install -y python3-pip python3-dev \
